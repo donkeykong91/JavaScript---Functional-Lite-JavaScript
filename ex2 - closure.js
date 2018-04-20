@@ -1,7 +1,7 @@
 function foo(y, z) {
   return function add () {
     return y + z;
-  }
+  };
 }
 
 var x = foo(3,4);
